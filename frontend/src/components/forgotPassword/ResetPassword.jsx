@@ -24,7 +24,7 @@ const ResetPassword = (props) => {
     try {
 
       const response = await axios.post(
-        "http://localhost:4000/api/auth/reset-password",
+        "https://employee-ms-server-eomf.onrender.com/api/auth/reset-password",
         { email: props.email, password: Newpassword }
       );
       
