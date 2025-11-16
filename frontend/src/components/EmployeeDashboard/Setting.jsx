@@ -27,7 +27,7 @@ const Setting = () => {
     } else {
       try {
         const response = await axios.put(
-          "http://localhost:5000/api/setting/change-password",
+          "https://employee-ms-server-eomf.onrender.com/api/setting/change-password",
           setting,
           {
             headers: {
