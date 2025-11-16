@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employee MS</title>
+    <style>
+      df-messenger {
+        --df-messenger-chat-icon-size: 200px;
+        --df-messenger-chat-icon-border-radius: 50%;
+        --df-messenger-bot-message: #e0f2fe;
+        --df-messenger-button-titlebar-color: #f9fafb;
+        --df-messenger-chat-background-color: #f9fafb;
+        --df-messenger-font-color: #111827;
+        --df-messenger-user-message: #c7d2fe;
+      }
+    </style>
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <df-messenger
+      chat-icon="https://res.cloudinary.com/dh314hcnr/image/upload/v1762153532/undefined_xwc0dm.png"
+      intent="WELCOME"
+      chat-title="C.I.R.I."
+      agent-id="1ce405c6-4e32-4227-9aab-0e5cd5f4d7c8"
+      language-code="en"
+    ></df-messenger>
+
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+
+  </body>
+</html>
