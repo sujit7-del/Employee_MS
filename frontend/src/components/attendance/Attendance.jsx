@@ -16,7 +16,7 @@ const Attendance = () => {
   const fetchAttendance = async () => {
     setLoading(true);
     try {
-      const responnse = await axios.get("http://localhost:5000/api/attendance", {
+      const responnse = await axios.get("https://employee-ms-server-eomf.onrender.com/api/attendance", {
         headers: {
           Authorization: `Bearer ${localStorage.getItem("token")}`,
         },
