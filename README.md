@@ -12,12 +12,6 @@ This project is an Employee Management System built using the MERN stack (MongoD
    - **Utilities:** Handles reusable components like private routes and role-based access.
 
 
-## Demo
-[Demo](https://youtu.be/P_L-06VRcBI)
-
-## How to Clone and Run Project
-(https://youtu.be/pEccfGmgrVY)
-
 ## Installation
 To run this project locally, follow these steps:
 
