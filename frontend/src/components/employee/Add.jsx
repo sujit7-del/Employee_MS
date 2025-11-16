@@ -37,7 +37,7 @@ const Add = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/employee/add",
+        "https://employee-ms-server-eomf.onrender.com/api/employee/add",
         formDataObj,
         {
           headers: {
