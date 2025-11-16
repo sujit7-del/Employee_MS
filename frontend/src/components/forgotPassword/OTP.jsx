@@ -15,7 +15,7 @@ const OTP = (props) => {
     try {
         
         const response = await axios.post(
-            "http://localhost:4000/api/auth/OTP-verification",
+            "https://employee-ms-server-eomf.onrender.com/api/auth/OTP-verification",
             { email:props.email,otp }
         );
         if (response.data.success) {
