@@ -15,7 +15,7 @@ const handleSubmit = async (e) => {
     try {
         
         const response = await axios.post(
-            "http://localhost:4000/api/auth/email-verification",
+            "https://employee-ms-server-eomf.onrender.com/api/auth/email-verification",
             { email: props.email }
         );
         if (response.data.success) {
